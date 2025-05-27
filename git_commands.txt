@@ -46,10 +46,7 @@
   43 ls
   44  git status
   45 git push origin master
-  46 git remote -v
-  47 git remote set-url origin https://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@github.com/yesBibekaryal/git_revision.git
-  48 clear
-  49 git remote -v
+  -v
   50 git push origin master
   51 ls
   52 git status
