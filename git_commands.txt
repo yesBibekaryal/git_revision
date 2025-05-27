@@ -63,3 +63,6 @@
   60 git status
   61 ls
   62 cat .\Remote2local.txt
+
+  Why its not changing
+  
