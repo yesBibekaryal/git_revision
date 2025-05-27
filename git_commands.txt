@@ -1,4 +1,7 @@
-1 try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+
+  Id CommandLine
+  -- -----------
+   1 try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
    2 & C:/Users/User/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/User/Desktop/Bibek/Devops/git_practice/git revision/testing.py"
    3 ls
    4 ls
@@ -27,3 +30,36 @@
   27 git add .
   28 git status
   29 git history
+  30 history
+  31 clear
+  32 git status
+  33 git add .\git_commands.txt
+  34 ls
+  35 git status
+  36 git commit -m "change to tracked file"
+  37 git status
+  38 ls
+  39 git push
+  40 clear
+  41 git remote add origin https://github.com/yesBibekaryal/git_revision.git
+  42 git remote -v
+  43 ls
+  44  git status
+  45 git push origin master
+  46 git remote -v
+  47 git remote set-url origin https://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@github.com/yesBibekaryal/git_revision.git
+  48 clear
+  49 git remote -v
+  50 git push origin master
+  51 ls
+  52 git status
+  53 git add .\git_file.txt
+  54 git status
+  55 git commit -m "pust to remote in github"
+  56 git push origin master
+  57 git status
+  58 git status
+  59 git pull origin master
+  60 git status
+  61 ls
+  62 cat .\Remote2local.txt
