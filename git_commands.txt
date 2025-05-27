@@ -1,0 +1,29 @@
+1 try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+   2 & C:/Users/User/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/User/Desktop/Bibek/Devops/git_practice/git revision/testing.py"
+   3 ls
+   4 ls
+   5 cd .\git_revision\
+   6 ls
+   7 git init
+   8 git status
+   9 clear
+  10 git status
+  11 git add .
+  12 git status
+  13 git status
+  14 git rm --cached
+  15 git rm --cached
+  16 clear
+  17 git commit -m "added to track"
+  18 ls
+  19 rm testing.py
+  20 ls
+  21 ls
+  22 git restore
+  23 ls
+  24 git restore testing.py
+  25 ls
+  26 clear
+  27 git add .
+  28 git status
+  29 git history
