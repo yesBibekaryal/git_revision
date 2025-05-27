@@ -1,1 +1,2 @@
 Deleting all the commands file because i got an error
+ss
